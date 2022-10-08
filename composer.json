@@ -1,12 +1,11 @@
 {
     "name": "yovy/rajabiller",
-    "description": "Klien API PHP untuk RajaBiller",
+    "description": "PHP API Client for RajaBiller",
     "keywords": [
         "yovy",
         "rajabiller"
     ],
     "homepage": "https://github.com/yovy/rajabiller",
-	"version": "1.0",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -24,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Yovy\\Rajabiller\\": "src"
+            "Yovy\\Rajabiller\\": "src/"
         }
     },
     "autoload-dev": {
