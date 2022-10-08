@@ -1,0 +1,42 @@
+{
+    "name": "yovy/rajabiller",
+    "description": "Klien API PHP untuk RajaBiller",
+    "keywords": [
+        "yovy",
+        "rajabiller"
+    ],
+    "homepage": "https://github.com/yovy/rajabiller",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "yovy",
+            "email": "yovydhan@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yovy\\Rajabiller\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yovy\\Rajabiller\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
