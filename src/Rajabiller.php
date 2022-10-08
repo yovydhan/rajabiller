@@ -4,5 +4,7 @@ namespace Yovy\Rajabiller;
 
 class Rajabiller
 {
-    // Build your next great package.
+	public function hello(){
+		return "hello";
+	}
 }
