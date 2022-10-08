@@ -6,6 +6,7 @@
         "rajabiller"
     ],
     "homepage": "https://github.com/yovy/rajabiller",
+	"version": "1.0",
     "license": "MIT",
     "type": "library",
     "authors": [
